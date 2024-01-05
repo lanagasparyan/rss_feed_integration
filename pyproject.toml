@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rss-feed-integration"
+version = "0.1.0"
+description = ""
+authors = ["Puneet Singh Ludu, Lana Gasparyan"]
+readme = "README.md"
+packages = [{include = "rss_feed_integration"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dynaconf = "3.1.4"
+sqlalchemy = "1.3.23"
+feedparser = "6.0.2"
+requests = "2.25.1"
+schedule = "1.1.0"
+pydantic = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+# settings.toml
+
+DATABASE_PATH = "/home/puneet/Development/dev/rss_feed_integration/rss_feed_data_temp"
+RSS_FEED_URLS = [
+    "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen",
+
+]
+
